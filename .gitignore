@@ -1,0 +1,27 @@
+# Virtual environments
+.venv-act209-frequency/
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data files not redistributed on GitHub
+data/raw/*
+data/processed/*
+
+# Keep data folder structure and documentation
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/README_data.md
+
+# Trained models
+outputs/models/
+*.pkl
+*.joblib
+
+# System files
+.DS_Store
+Thumbs.db
